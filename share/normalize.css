@@ -1,0 +1,17 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,th,td,form,fieldset,legend,input,textarea,blockquote,address,pre {margin: 0; padding: 0;}
+html{font-size: 100px;}
+em,i,address,cite {font-style: normal;}
+table {border-collapse: collapse; border-spacing: 0;}
+img,fieldset,hr,iframe {border: 0;}
+img {display: inline-block; border: none; vertical-align: middle;}
+a,del,ins {text-decoration: none; color: #606060;}
+li {list-style: none;}
+body,input,textarea,select {font-family: "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif; color: #050102;}
+body {background-color: #f8f8f8;min-width:320px;}
+input[type=text],input[type=password],input[type=button],input[type=submit],input[type=reset],input[type=number],input[type=email],input[type=tel],input[type=search] {border: none; background: none; outline: none;}
+/*--清除浮动
+------------------------------------------------------------------------------------------*/
+.clearfix:after { clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden; }
+.clearfix:after { _zoom:1; }
+.overflow { overflow:hidden; _zoom:1; }
+.clear { clear:both; height:0;font-size:0; overflow:hidden; }
